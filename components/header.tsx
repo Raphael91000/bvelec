@@ -2,7 +2,8 @@
 
 import { useState } from "react"
 import Link from "next/link"
-import { Menu, X, Phone, Zap } from "lucide-react"
+import Image from "next/image"
+import { Menu, X, Phone } from "lucide-react"
 import { Button } from "@/components/ui/button"
 
 const navigation = [
@@ -18,12 +19,9 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
-      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-8">
+      <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-0 h-16 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
-          <div className="flex items-center justify-center w-10 h-10 bg-primary rounded-lg">
-            <Zap className="w-6 h-6 text-primary-foreground" />
-          </div>
-          <span className="font-semibold text-xl tracking-tight text-foreground">BV ELEC 77</span>
+          <Image src="/BV.png" alt="BV ELEC 77" width={360} height={360} className="rounded-lg" style={{ height: 216, width: "auto" }} />
         </Link>
 
         <div className="hidden lg:flex lg:gap-x-8">

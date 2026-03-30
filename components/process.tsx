@@ -1,4 +1,4 @@
-import { Phone, MapPin, FileCheck, ArrowRight } from "lucide-react"
+import { Phone, MapPin, FileCheck } from "lucide-react"
 
 const steps = [
   {
@@ -12,8 +12,8 @@ const steps = [
     number: "02",
     icon: MapPin,
     title: "On vient vous voir",
-    description: "On se déplace chez vous pour voir la situation de vos propres yeux. Pas de diagnostic par téléphone, pas de devis au hasard. On évalue sur place.",
-    badge: "Déplacement gratuit sur devis",
+    description: "On se déplace chez vous pour voir la situation de nos propres yeux. Pas de diagnostic par téléphone, pas de devis au hasard. On évalue sur place.",
+    badge: "Déplacement gratuit",
   },
   {
     number: "03",
@@ -48,14 +48,8 @@ export function Process() {
         <div className="grid md:grid-cols-3 gap-6 lg:gap-8">
           {steps.map((step, index) => (
             <div key={step.number} className="relative group">
-              {/* Connector arrow */}
-              {index < steps.length - 1 && (
-                <div className="hidden md:flex absolute top-1/2 -right-4 lg:-right-5 z-10 w-8 lg:w-10 items-center justify-center">
-                  <ArrowRight className="w-6 h-6 text-amber-400" />
-                </div>
-              )}
               
-              <div className="h-full bg-background/5 backdrop-blur-sm border border-background/10 rounded-3xl p-8 hover:bg-background/10 transition-colors">
+              <div className="h-full bg-background/5 backdrop-blur-sm border border-background/10 rounded-3xl p-8 hover:bg-background/10 transition-colors flex flex-col">
                 <div className="flex items-start justify-between mb-8">
                   <span className="text-6xl font-bold text-amber-400/30">
                     {step.number}
@@ -73,7 +67,7 @@ export function Process() {
                   {step.description}
                 </p>
                 
-                <div className="inline-flex items-center px-4 py-2 rounded-full bg-amber-400/20 text-amber-400 text-sm font-semibold">
+                <div className="mt-auto self-start inline-flex items-center px-4 py-2 rounded-full bg-amber-400/20 text-amber-400 text-sm font-semibold">
                   {step.badge}
                 </div>
               </div>

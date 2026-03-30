@@ -59,7 +59,7 @@ export function Reviews() {
                     <Star key={i} className="w-5 h-5 fill-accent text-accent" />
                   ))}
                 </div>
-                <Quote className="w-8 h-8 text-muted-foreground/30" />
+                <Quote className="w-8 h-8 text-amber-400" />
               </div>
               
               <p className="text-foreground leading-relaxed mb-6">

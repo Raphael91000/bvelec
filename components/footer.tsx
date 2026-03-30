@@ -1,5 +1,6 @@
 import Link from "next/link"
-import { Zap, Phone, Mail, MapPin } from "lucide-react"
+import Image from "next/image"
+import { Phone, Mail, MapPin } from "lucide-react"
 
 const navigation = {
   services: [
@@ -24,9 +25,7 @@ export function Footer() {
           {/* Brand */}
           <div className="lg:col-span-1">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              <div className="flex items-center justify-center w-10 h-10 bg-primary-foreground/10 rounded-lg">
-                <Zap className="w-6 h-6" />
-              </div>
+              <Image src="/BV.png" alt="BV ELEC 77" width={40} height={40} className="rounded-lg" />
               <span className="font-semibold text-xl tracking-tight">BV ELEC 77</span>
             </Link>
             <p className="text-primary-foreground/70 text-sm leading-relaxed mb-6">
@@ -41,10 +40,15 @@ export function Footer() {
                 <Mail className="w-4 h-4" />
                 contact@bvelec77.fr
               </a>
-              <div className="flex items-start gap-2 text-sm text-primary-foreground/70">
+              <a
+                href="https://www.google.com/maps/place/BV+ELEC+77/@49.0102042,2.8293269,17z/data=!3m1!4b1!4m6!3m5!1s0x47e621aa2e7170ad:0xb06979a0274e859f!8m2!3d49.0102042!4d2.8293269!16s%2Fg%2F11w_y6vhp7?authuser=0&hl=fr&entry=ttu&g_ep=EgoyMDI2MDMyNC4wIKXMDSoASAFQAw%3D%3D"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-start gap-2 text-sm text-primary-foreground/70 hover:text-primary-foreground transition-colors"
+              >
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                 <span>6 Rue du Gué, 77122 Monthyon</span>
-              </div>
+              </a>
             </div>
           </div>
 
