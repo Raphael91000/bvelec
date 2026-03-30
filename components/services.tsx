@@ -97,7 +97,7 @@ export function Services() {
         <div className="mt-16 bg-card border border-border rounded-2xl p-8 text-center">
           <p className="text-lg text-foreground">
             <span className="font-bold">Zone d&apos;intervention :</span>{" "}
-            <span className="text-muted-foreground">Monthyon, Meaux, Claye-Souilly, Dammartin-en-Goële, et toute la Seine-et-Marne (77)</span>
+            <span className="text-muted-foreground">Monthyon, Meaux, Claye-Souilly, Dammartin-en-Goële, toute la Seine-et-Marne (77) et l&apos;Île-de-France</span>
           </p>
         </div>
       </div>

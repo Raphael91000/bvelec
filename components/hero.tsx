@@ -85,7 +85,7 @@ export function Hero() {
           </div>
 
           {/* Row 2 right: +10 ans + avis côte à côte */}
-          <div className="hidden lg:flex gap-4">
+          <div className="flex gap-4 lg:col-start-2">
             <div className="flex-1 bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-6 shadow-2xl">
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 bg-amber-400 rounded-xl flex items-center justify-center shrink-0">
