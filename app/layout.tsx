@@ -6,9 +6,9 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'BV ELEC 77 | Électricien à Monthyon - Seine-et-Marne',
-  description: 'BV ELEC 77 - Électricité générale en Seine-et-Marne et Île-de-France. Installation, dépannage et mise aux normes électriques. Devis gratuit au 06 25 74 47 30.',
-  keywords: 'électricien, électricité, Seine-et-Marne, 77, Île-de-France, Monthyon, installation électrique, dépannage, mise aux normes',
+  title: 'SAUDADE ELEC | Électricité générale à Béziers et ses alentours',
+  description: 'SAUDADE ELEC - Électricité générale à Béziers et ses alentours. Installation, dépannage et mise aux normes électriques. Devis gratuit au 06 25 08 71 21.',
+  keywords: 'électricien, électricité, Béziers, Hérault, installation électrique, dépannage, mise aux normes',
   icons: {
     icon: [
       {

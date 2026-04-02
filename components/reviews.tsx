@@ -3,7 +3,7 @@ import { Star, Quote } from "lucide-react"
 const reviews = [
   {
     name: "Marie L.",
-    location: "Monthyon",
+    location: "Béziers",
     rating: 5,
     text: "Très professionnel et réactif. Le devis était clair et le travail a été fait proprement. Je recommande sans hésiter.",
     service: "Mise aux normes tableau électrique",

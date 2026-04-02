@@ -10,7 +10,7 @@ const realizations = [
   {
     title: "Rénovation complète maison",
     category: "Résidentiel",
-    location: "Monthyon",
+    location: "Béziers",
     description: "Mise aux normes et rénovation complète de l'installation électrique d'une maison de 150m².",
     image: "/images/renovation-work.jpg",
   },
@@ -45,7 +45,7 @@ const realizations = [
   {
     title: "Éclairage extérieur",
     category: "Rénovation",
-    location: "Monthyon",
+    location: "Béziers",
     description: "Installation d'éclairage extérieur et de jardin pour une propriété résidentielle.",
     image: "/images/outdoor-lighting.jpg",
   },

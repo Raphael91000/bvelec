@@ -10,7 +10,7 @@ import {
 const faqs = [
   {
     question: "Quelle est votre zone d'intervention ?",
-    answer: "Nous intervenons principalement en Seine-et-Marne (77) et dans toute l'Île-de-France. Notre base est à Monthyon, ce qui nous permet d'être réactifs sur les secteurs de Meaux, Claye-Souilly, Dammartin-en-Goële et les communes environnantes.",
+    answer: "Nous intervenons principalement à Béziers et dans toute l'Île-de-France. Notre base est à Béziers, ce qui nous permet d'être réactifs sur l'ensemble de la région.",
   },
   {
     question: "Le devis est-il vraiment gratuit ?",

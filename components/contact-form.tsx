@@ -46,7 +46,7 @@ export function ContactForm() {
               
               <div className="space-y-6">
                 <a
-                  href="tel:+33625744730"
+                  href="tel:+33625087121"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 bg-primary/5 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary/10 transition-colors">
@@ -55,13 +55,13 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Téléphone</p>
                     <p className="text-muted-foreground group-hover:text-primary transition-colors">
-                      06 25 74 47 30
+                      06 25 08 71 21
                     </p>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:contact@bvelec77.fr"
+                  href="mailto:contact@saudadeelec.fr"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 bg-primary/5 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary/10 transition-colors">
@@ -70,7 +70,7 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Email</p>
                     <p className="text-muted-foreground group-hover:text-primary transition-colors">
-                      contact@bvelec77.fr
+                      contact@saudadeelec.fr
                     </p>
                   </div>
                 </a>
@@ -82,8 +82,8 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Adresse</p>
                     <p className="text-muted-foreground">
-                      6 Rue du Gué<br />
-                      77122 Monthyon, France
+                      15 Rue Jacques Ferréol Mazas<br />
+                      34500 Béziers, France
                     </p>
                   </div>
                 </div>
@@ -95,7 +95,7 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Horaires</p>
                     <div className="text-muted-foreground text-sm space-y-1">
-                      <p>Lundi - Vendredi : 08:00 - 17:00</p>
+                      <p>Lundi - Vendredi : 09:00 - 17:00</p>
                       <p>Samedi - Dimanche : Fermé</p>
                     </div>
                   </div>
@@ -106,14 +106,14 @@ export function ContactForm() {
             {/* Map placeholder */}
             <div className="aspect-video bg-muted rounded-xl overflow-hidden relative">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2617.507895553556!2d2.8089!3d49.0181!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e8a1e3c0a3b1e7%3A0x4c8b1f3c8f8b1f3c!2s6%20Rue%20du%20Gu%C3%A9%2C%2077122%20Monthyon!5e0!3m2!1sfr!2sfr!4v1234567890"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2858.5!2d3.2302558!3d43.3399759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x433037e2e064faf1%3A0x351131b52e866443!2sSAUDADE%20ELEC!5e0!3m2!1sfr!2sfr!4v1680000000000"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localisation BV ELEC 77"
+                title="Localisation SAUDADE ELEC"
               />
             </div>
           </div>

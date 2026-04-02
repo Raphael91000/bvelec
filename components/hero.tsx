@@ -46,7 +46,7 @@ export function Hero() {
             <div className="w-full bg-white/10 backdrop-blur-md border border-white/20 rounded-2xl p-5 shadow-2xl">
               <p className="text-white font-semibold mb-2">Zone d&apos;intervention</p>
               <p className="text-white/70 text-sm">
-                Monthyon, Meaux, Claye-Souilly, Dammartin, toute la Seine-et-Marne et l&apos;Île-de-France
+                Nous intervenons à Béziers et ses alentours
               </p>
             </div>
           </div>
@@ -61,9 +61,9 @@ export function Hero() {
                 </Link>
               </Button>
               <Button size="lg" variant="outline" asChild className="text-base border-white/30 bg-white/10 backdrop-blur-sm text-white hover:bg-white/20 hover:text-white h-14 px-8">
-                <a href="tel:+33625744730">
+                <a href="tel:+33625087121">
                   <Phone className="mr-2 h-5 w-5" />
-                  06 25 74 47 30
+                  06 25 08 71 21
                 </a>
               </Button>
             </div>

@@ -47,7 +47,7 @@ export function Services() {
               Nos services
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6 text-balance">
-              Électricité générale en Seine-et-Marne et Île-de-France
+              Électricité générale à Béziers et ses alentours
             </h2>
             <p className="text-lg text-muted-foreground mb-8">
               De l&apos;installation au dépannage, nous intervenons sur tous vos projets électriques 
@@ -97,7 +97,7 @@ export function Services() {
         <div className="mt-16 bg-card border border-border rounded-2xl p-8 text-center">
           <p className="text-lg text-foreground">
             <span className="font-bold">Zone d&apos;intervention :</span>{" "}
-            <span className="text-muted-foreground">Monthyon, Meaux, Claye-Souilly, Dammartin-en-Goële, toute la Seine-et-Marne (77) et l&apos;Île-de-France</span>
+            <span className="text-muted-foreground">Nous intervenons à Béziers et ses alentours</span>
           </p>
         </div>
       </div>
