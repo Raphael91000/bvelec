@@ -26,7 +26,7 @@ export function Hero() {
           <div className="space-y-6">
             <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/20 text-sm font-medium text-white">
               <span className="w-2 h-2 bg-amber-400 rounded-full animate-pulse" />
-              Électricien en Seine-et-Marne (77)
+              Électricien à Béziers
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold tracking-tight text-white leading-[1.1] text-balance">
