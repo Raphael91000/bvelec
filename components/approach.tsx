@@ -28,7 +28,7 @@ export function Approach() {
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden">
               <Image
                 src="/images/renovation-work.jpg"
-                alt="Électricien SAUDADE ELEC au travail"
+                alt="Électricien RUDY ELEC au travail"
                 fill
                 className="object-cover"
               />

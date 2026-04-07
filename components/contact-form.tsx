@@ -46,7 +46,7 @@ export function ContactForm() {
               
               <div className="space-y-6">
                 <a
-                  href="tel:+33625087121"
+                  href="tel:+33618842344"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 bg-primary/5 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary/10 transition-colors">
@@ -55,13 +55,13 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Téléphone</p>
                     <p className="text-muted-foreground group-hover:text-primary transition-colors">
-                      06 25 08 71 21
+                      +33 6 18 84 23 44
                     </p>
                   </div>
                 </a>
 
                 <a
-                  href="mailto:contact@saudadeelec.fr"
+                  href="mailto:contact@rudyelec.fr"
                   className="flex items-start gap-4 group"
                 >
                   <div className="w-12 h-12 bg-primary/5 rounded-lg flex items-center justify-center flex-shrink-0 group-hover:bg-primary/10 transition-colors">
@@ -70,7 +70,7 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Email</p>
                     <p className="text-muted-foreground group-hover:text-primary transition-colors">
-                      contact@saudadeelec.fr
+                      contact@rudyelec.fr
                     </p>
                   </div>
                 </a>
@@ -95,8 +95,8 @@ export function ContactForm() {
                   <div>
                     <p className="font-medium text-foreground">Horaires</p>
                     <div className="text-muted-foreground text-sm space-y-1">
-                      <p>Lundi - Vendredi : 09:00 - 17:00</p>
-                      <p>Samedi - Dimanche : Fermé</p>
+                      <p>Lundi - Samedi : 07:00 - 18:00</p>
+                      <p>Dimanche : Fermé</p>
                     </div>
                   </div>
                 </div>
@@ -104,18 +104,26 @@ export function ContactForm() {
             </div>
 
             {/* Map placeholder */}
-            <div className="aspect-video bg-muted rounded-xl overflow-hidden relative">
+            <a
+              href="https://www.google.com/maps/place/RUDY+ELEC/@43.3783765,3.3369381,11z/data=!4m6!3m5!1s0x12b113fa2fa9d9d3:0x5f1bb7727d739fcd!8m2!3d43.3888562!4d3.437875!16s%2Fg%2F11hzpjq870?entry=ttu&g_ep=EgoyMDI2MDQwMS4wIKXMDSoASAFQAw%3D%3D"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group block aspect-video bg-muted rounded-xl overflow-hidden relative"
+              aria-label="Ouvrir la fiche Google Maps de RUDY ELEC"
+            >
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2858.5!2d3.2302558!3d43.3399759!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x433037e2e064faf1%3A0x351131b52e866443!2sSAUDADE%20ELEC!5e0!3m2!1sfr!2sfr!4v1680000000000"
+                src="https://www.google.com/maps?q=43.3888562,3.437875&z=14&output=embed"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
-                title="Localisation SAUDADE ELEC"
+                title="Localisation RUDY ELEC"
+                className="pointer-events-none"
               />
-            </div>
+              <div className="absolute inset-0 bg-black/0 transition-colors group-hover:bg-black/5" />
+            </a>
           </div>
 
           {/* Contact Form */}

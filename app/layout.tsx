@@ -6,8 +6,8 @@ import './globals.css'
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 
 export const metadata: Metadata = {
-  title: 'SAUDADE ELEC | Électricité générale à Béziers et ses alentours',
-  description: 'SAUDADE ELEC - Électricité générale à Béziers et ses alentours. Installation, dépannage et mise aux normes électriques. Devis gratuit au 06 25 08 71 21.',
+  title: 'RUDY ELEC | Électricité générale à Béziers et ses alentours',
+  description: 'RUDY ELEC - Électricité générale à Béziers et ses alentours. Installation, dépannage et mise aux normes électriques. Devis gratuit au +33 6 18 84 23 44.',
   keywords: 'électricien, électricité, Béziers, Hérault, installation électrique, dépannage, mise aux normes',
   icons: {
     icon: [

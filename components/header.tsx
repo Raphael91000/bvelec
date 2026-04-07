@@ -20,8 +20,8 @@ export function Header() {
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-sm border-b border-border">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-0 h-16 lg:px-8">
-        <Link href="/" className="flex items-center gap-2">
-          <Image src="/BV.png" alt="SAUDADE ELEC" width={360} height={360} className="rounded-lg" style={{ height: 216, width: "auto" }} />
+        <Link href="/" className="flex items-center gap-2 translate-y-2">
+          <Image src="/BV.png" alt="RUDY ELEC" width={360} height={360} className="rounded-lg" style={{ height: 216, width: "auto" }} />
         </Link>
 
         <div className="hidden lg:flex lg:gap-x-8">
@@ -38,11 +38,11 @@ export function Header() {
 
         <div className="hidden lg:flex lg:items-center lg:gap-4">
           <a
-            href="tel:+33625087121"
+            href="tel:+33618842344"
             className="flex items-center gap-2 text-sm font-medium text-foreground"
           >
             <Phone className="w-4 h-4" />
-            06 25 08 71 21
+            +33 6 18 84 23 44
           </a>
           <Button asChild>
             <Link href="#contact">Devis gratuit</Link>
@@ -79,11 +79,11 @@ export function Header() {
             ))}
             <div className="pt-4 space-y-3">
               <a
-                href="tel:+33625087121"
+                href="tel:+33618842344"
                 className="flex items-center gap-2 text-base font-medium text-foreground"
               >
                 <Phone className="w-5 h-5" />
-                06 25 08 71 21
+                +33 6 18 84 23 44
               </a>
               <Button asChild className="w-full">
                 <Link href="#contact" onClick={() => setMobileMenuOpen(false)}>

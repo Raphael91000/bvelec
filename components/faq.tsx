@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     question: "Intervenez-vous le week-end ?",
-    answer: "Nos horaires habituels sont du lundi au vendredi de 8h à 17h. Pour les urgences, nous pouvons intervenir en dehors de ces horaires. Contactez-nous pour en discuter.",
+    answer: "Nos horaires habituels sont du lundi au samedi de 07:00 à 18:00. Le dimanche, nous sommes fermés. Pour les urgences, contactez-nous afin de voir ce qui est possible.",
   },
   {
     question: "Comment se passe le suivi après les travaux ?",
